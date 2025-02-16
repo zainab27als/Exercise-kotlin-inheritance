@@ -10,4 +10,15 @@ fun main() {
 
     println("\nNon-Fiction Book Info:")
     nonFictionBook.displayInfo()
+
+    //Step 6 experiment
+    fictionBook.addToReadingList()
+    nonFictionBook.addToReadingList()
+
+    fictionBook.displayInfo()
+    nonFictionBook.displayInfo()
+}
+
+fun Book.addToReadingList() {
+    println("Added $title to the reading list!")
 }
